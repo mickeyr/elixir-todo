@@ -1,0 +1,7 @@
+<form method="post" action="<%= todo_path(:create) %>">
+  <fieldset>
+    <legend>Add new ToDo item</legend>
+    <input type="text" class="form-control" name="item" placeholder="Todo Item">
+    <button type="submit" class="btn btn-primary">Save</button>
+  </fieldset>
+</form>

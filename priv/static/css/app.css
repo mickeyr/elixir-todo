@@ -1,0 +1,17 @@
+body {
+  width: 500px;
+  margin: 30px auto 0px auto;
+}
+
+div.container {
+  margin-top: 30px;
+  width: 500px;
+}
+
+input[type=checkbox] + span {
+  font-weight: normal;
+}
+
+input[type=checkbox]:checked + span{
+  text-decoration: line-through;
+}

@@ -1,0 +1,9 @@
+<ul class="list-unstyled">
+  <%= for item <- @todo_list do %>
+    <li class="checkbox">
+      <label>
+        <input type="checkbox"/> <span><%= item.description %></span>
+      </label>
+    </li> 
+  <% end %>
+</ul>
